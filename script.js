@@ -1,6 +1,6 @@
 const CLIENT_ID = 2l69vgoo4pmnvif7xikevn4brobguz;  // Replace with your Twitch Client ID
 const CLIENT_SECRET = apdtyr90l8vx92qxtwh2gjnmif5b25;  // Replace with your Twitch Client Secret
-const CHANNEL_NAME = 1travster;  // Replace with your Twitch channel name
+const CHANNEL_NAME = 1Travster;  // Replace with your Twitch channel name
 
 async function getAccessToken() {
     const response = await fetch("https://id.twitch.tv/oauth2/token", {
